@@ -3,11 +3,14 @@ School project, simulates the spread of a deadly disease without cure. Uses airp
 
 ## To make sure it works
 * make sure you have the necessary libraries installed :
-  * sudo apt-get install freeglut3-dev
-  * sudo apt-get install libx11-dev:i386
-  * sudo apt-get install ibx11-dev
+  * `sudo apt-get install freeglut3-dev`
+  * `sudo apt-get install libx11-dev:i386`
+  * `sudo apt-get install ibx11-dev`
 
-### Once you installed all of this you can just type `make` in terminal once in the project root folder.
+### Once you installed all of this you can just type `make` in terminal once in the project root folder
+#### if something goes wrong, you can always try `make clean`, then go back to previous step.
+
+### To run the simulator, type `./conway`
 
 ## To change the map for the second one provided :
 
@@ -19,6 +22,6 @@ School project, simulates the spread of a deadly disease without cure. Uses airp
 * change the bmp file name for the one you want to try
 > #### the file has to be a BMP file
 * make sure your map uses the right colors :
-* land is in black (**#000000**)
-* water is in blue (**#35D6FF**)
-* airports / naval ports are in yellow (**#FFD821**)
+  * land is in black (**#000000**)
+  * water is in blue (**#35D6FF**)
+  * airports / naval ports are in yellow (**#FFD821**)
